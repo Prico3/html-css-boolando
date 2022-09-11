@@ -15,6 +15,9 @@ html{
     display: flex;
 }
 
+img{
+    max-width: 100%;
+}
 
 
 /* HEADER */
@@ -54,6 +57,57 @@ html{
 
 /* MAIN */
 
+.main-wrapper{
+    width: 70%;
+    margin: 30px auto;
+    /* DEBUG */
+    border: 1px solid black;
+
+}
+
+.row{
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.col{
+    position: relative;
+    width: calc(100% / 3 - 10px);
+
+    /* DEBUG */
+    border: 2px solid green;
+    height: 500px;
+    background-color: grey;
+}
+
+.product-info{
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    color: white;
+    gap: 5px;
+}
+
+.discount{
+    background-color: red;
+    padding: 5px;
+}
+
+.sostenability{
+    background-color: green;
+    padding: 5px;
+}
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    font-size: 2rem;
+    padding: 0 10px;
+}
 
 
 
