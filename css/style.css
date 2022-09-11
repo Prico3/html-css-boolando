@@ -85,9 +85,17 @@ img{
 .product-info{
     position: absolute;
     left: 0;
-    bottom: 15px;
+    bottom: 150px;
     color: white;
     gap: 5px;
+}
+
+.text-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
 }
 
 .discount{
