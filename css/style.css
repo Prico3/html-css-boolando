@@ -11,9 +11,45 @@ html{
     font-size: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
 
 
 /* HEADER */
+
+.header-container{
+    background-color: orangered;
+    height: 70px;    
+}
+
+.wrapper-header{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    /* DEBUG */
+    border: 1px solid black;
+    height: 70px;
+}
+
+.list{
+    /* DEBUG */
+    border: 1px solid black;
+    height: 35px;
+}
+.logo{
+    /* DEBUG */
+    border: 1px solid black;
+    height: 35px;
+}
+
+.icons{
+    /* DEBUG */
+    border: 1px solid black;
+    height: 35px;
+}
 
 
 /* MAIN */
