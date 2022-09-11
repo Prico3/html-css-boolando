@@ -153,18 +153,8 @@ footer{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    font-size: 0.7rem;
     
 }
 
-.left-footer{
-    /* DEBUG */
-    border: 1px solid green;
-    width: 20%;
-}
-
-.right-footer{
-    /* DEBUG */
-    border: 1px solid green;
-    width: 20%;
-
-}
