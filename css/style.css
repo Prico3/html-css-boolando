@@ -112,3 +112,28 @@ img{
 
 
 /* FOOTER */
+footer{
+    background-color: black;
+    height: 100px;
+}
+
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left-footer{
+    /* DEBUG */
+    border: 1px solid green;
+    width: 20%;
+}
+
+.right-footer{
+    /* DEBUG */
+    border: 1px solid green;
+    width: 20%;
+
+}
