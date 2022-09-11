@@ -17,6 +17,18 @@ html{
 
 img{
     max-width: 100%;
+    max-height: 100%;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 5px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -37,21 +49,15 @@ img{
     height: 70px;
 }
 
-.list{
-    /* DEBUG */
-    border: 1px solid black;
-    height: 35px;
-}
+
 .logo{
-    /* DEBUG */
-    border: 1px solid black;
-    height: 35px;
+    height: 40px;
 }
 
-.icons{
-    /* DEBUG */
-    border: 1px solid black;
-    height: 35px;
+.icons i{
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 
@@ -85,7 +91,7 @@ img{
 .product-info{
     position: absolute;
     left: 0;
-    bottom: 150px;
+    bottom: 30%;
     color: white;
     gap: 5px;
 }
@@ -115,6 +121,7 @@ img{
     background-color: white;
     font-size: 2rem;
     padding: 0 10px;
+    cursor: pointer;
 }
 
 
